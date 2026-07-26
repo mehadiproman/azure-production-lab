@@ -13,7 +13,6 @@ A hands-on learning repository for mastering **GitHub Actions**, **CI/CD automat
 - Learn workflow orchestration using multiple jobs
 - Prepare for production-grade DevOps pipelines
 
----
 
 # Prerequisites
 
@@ -25,7 +24,6 @@ Before starting this lab, you should have:
 - Familiarity with any programming language
 - Basic understanding of Docker (recommended)
 
----
 
 # Learning Roadmap
 
@@ -37,7 +35,6 @@ Before starting this lab, you should have:
 - Daily Software Development Workflow
 - GitHub Actions Overview
 
----
 
 ## CI/CD Fundamentals
 
@@ -47,7 +44,6 @@ Before starting this lab, you should have:
 - Automated Deployment Process
 - Benefits of CI/CD
 
----
 
 ## GitHub Actions Architecture
 
@@ -63,7 +59,6 @@ Topics
 - Action
 - YAML Configuration
 
----
 
 ## First Workflow
 
@@ -84,7 +79,6 @@ Example
 name: First Workflow
 ```
 
----
 
 ## Workflow Events
 
@@ -99,7 +93,6 @@ on:
   push:
 ```
 
----
 
 ### Manual Workflow
 
@@ -107,7 +100,6 @@ on:
 workflow_dispatch
 ```
 
----
 
 ### Branch Specific Workflow
 
@@ -118,7 +110,6 @@ on:
       - main
 ```
 
----
 
 ### Scheduled Workflow
 
@@ -128,7 +119,6 @@ Cron Jobs
 schedule:
 ```
 
----
 
 ## Runners
 
@@ -142,7 +132,6 @@ Topics
 - GitHub Hosted Runner
 - Self Hosted Runner
 
----
 
 ## Jobs
 
@@ -160,7 +149,6 @@ Example
 jobs:
 ```
 
----
 
 ## Job Dependencies
 
@@ -179,7 +167,6 @@ needs:
   - build
 ```
 
----
 
 ## Conditional Workflows
 
@@ -198,7 +185,6 @@ paths:
   - backend/**
 ```
 
----
 
 ## Passing Inputs
 
@@ -214,7 +200,6 @@ Example
 workflow_dispatch:
 ```
 
----
 
 ## Passing Values Between Jobs
 
@@ -225,7 +210,6 @@ Topics
 - Job Outputs
 - Context
 
----
 
 ## Reusable Workflows
 
@@ -235,7 +219,6 @@ Topics
 - Workflow reuse
 - Sharing workflows
 
----
 
 ## Composite Actions
 
@@ -245,7 +228,6 @@ Topics
 - Action.yml
 - Reusable commands
 
----
 
 ## Real CI/CD Example
 
@@ -268,7 +250,6 @@ GitHub Actions
      └── Deploy
 ```
 
----
 
 # Repository Structure
 
@@ -291,7 +272,6 @@ docs/
 README.md
 ```
 
----
 
 # Concepts Covered
 
@@ -316,7 +296,6 @@ README.md
 - Reusable Workflow
 - Composite Action
 
----
 
 # Learning Outcome
 
@@ -329,7 +308,6 @@ README.md
 - Build production-ready automation pipelines
 - Understand enterprise GitHub Actions architecture
 
----
 
 ## Later
 
